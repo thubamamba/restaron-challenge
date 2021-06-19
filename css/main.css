@@ -145,109 +145,108 @@ header {
     font-family: 'Orbitron', sans-serif;
 }
 
-
 /* Main Content */
-  .aboutInfo {
+.aboutInfo {
     padding-left: 66px;
 }
-  .aboutContent {
+.aboutContent {
     border-left: 3px solid var(--border-color);
     padding-bottom: 40px;
-  }
-  .title-container .title {
+}
+.title-container .title {
     position: relative;
-  }
-  .title-container .title h1 {
-    font-size: 22px;
+}
+.title-container .title h1 {
+    font-size: 22px;   
     font-family: 'Orbitron', sans-serif;
-  }
-  .title-container {
+}
+.title-container {
     margin: 80px 0;
     padding: 80px 0;
-    } 
-  .title .icon {
+} 
+.title .icon {
     position: absolute;
     left: -18px;
     width: 32px;
     padding: 10px 0;
     background: var(--main-color);
-  }
-  .title .icon {
+}
+.title .icon {
     position: absolute;
     left: -117px;
     width: 100px;
     padding: 25px 0;
 }
-  .content-container {
+.content-container {
     min-height: 0;
     position: relative;
     display: flex;
     align-items: center;
-  }
-  .content-container .content {
-      padding: 0 16px 32px;
-  }
-  .content-img {
-    background: rgba(255, 255, 255, 0.3);
-    backdrop-filter: blur(30px);
-    -webkit-backdrop-filter: blur(30px);
 }
-  .content-img {
+.content-container .content {
+    padding: 0 16px 32px;
+}
+.content-img {
+bottom: ;ackground: rgba(255, 255, 255, 0.3);
+backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+} 
+.content-img {
     border-radius: 2px;
     padding-bottom: 45px;
     min-height: 200px;
     padding: 32px;
     opacity: 1;
-  }
-  .content-img img {
+}
+.content-img img {
     height: 100%;
     width: 100%;
     object-fit: contain;
-  }
-  .line-top {
+}
+.line-top {
     border-right: 3px solid var(--border-color);
     border-bottom: 3px solid var(--border-color);
     height: 137px;
-  }
-  .line-up {
+}
+.line-up {
     width: 96px;
     height: 47px;
     border-top: 3px solid var(--border-color);
     -webkit-transform: translateY(-41px) translateX(-10px) rotate(45deg);
     position: absolute;
     left: -20px;
-  }
-  .line-down {
+}
+.line-down {
     width: 96px;
     height: 47px;
     border-top: 3px solid var(--border-color);
     -webkit-transform: translateY(26px) translateX(22px) rotate(-45deg);
     position: absolute;
     left: -20px;
-  }
-  .line-bottom {
+}
+.line-bottom {
     border-right: 3px solid var(--border-color);
     border-top: 3px solid var(--border-color);
     height: 137px;
-  }
-  .line-bottom .circle {
+}
+.line-bottom .circle {
     bottom: 0;
-  }
-  .circle {
+}
+.circle {
     height: 24px;
     width: 24px;
     border: 3px solid var(--border-color);
     border-radius: 50%;
     background: var(--main-color);
     position: absolute;
-  }
-  .circle-left {
+}
+.circle-left {
     left: -13px;
-  }
-  .circle-right {
+}
+.circle-right {
     right: -14px;
-  }
-  @media (max-width: 576px) { 
+}
+@media (max-width: 576px) { 
     .chevron-top {
         transform: rotate(360deg) !important;
         position: absolute;
@@ -256,14 +255,6 @@ header {
         left: 160px !important;
         width: 200px  !important;
     }
-
-    /* .chevron-bottom {
-        transform: rotate(180deg) !important;
-        position: absolute;
-        bottom: 20px !important;
-        width: 20% !important;
-        left: -87px !important;
-    } */
 
     .founder-wrapper .header-label-wrapper {
         position: absolute !important;
@@ -302,24 +293,24 @@ header {
     .content-img img {
         margin-left: -65px !important;
     } 
-  }
+}
 
   /* Founder */
-  .founderContainer {
+.founderContainer {
     max-width: 626px;
-  }
+}
 
-  .header {
+.header {
     background: transparent linear-gradient(284deg, #8655E9 0%, #1DCEF2 100%) 0% 0% no-repeat padding-box;
     padding: 25px 35px 35px;
     position: relative;
-  }
+}
 
-  .founderName {
+.founderName {
     font-family: 'Orbitron', sans-serif;
-  }
+}
 
-  .bio-clip {
+.bio-clip {
     background: var(--primary-color);
     padding: 10px 40px 10px 20px;
     margin-top: -20px;
@@ -341,17 +332,17 @@ header {
     padding-left: 20px;
 }
 
-  .founderAbout {
+.founderAbout {
     background: var(--dark-bg-color);
     max-width: 626px;
-  }
+}
 
-  .connections {
+.connections {
     padding: 10px 16px;
     background: transparent linear-gradient(84deg, #8655E9 0%, #1DCEF2 100%) 0% 0% no-repeat padding-box;
-  }
+}
 
-  .founder-wrapper .header-label-wrapper {
+.founder-wrapper .header-label-wrapper {
     position: absolute;
     top: 75px;
     right: 0px;
@@ -624,6 +615,3 @@ header {
     width: 20%;
     left: -87px;
 }
-
-
-  
